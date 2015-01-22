@@ -1,2 +1,2 @@
 page acceuil
-
+<a href="index.php?action=create">Créer une News </a>
