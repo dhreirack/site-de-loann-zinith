@@ -11,9 +11,5 @@ class News
 		$this->date=new DateTime ('NOW');
 		
 	}
-	
-	public function afficher()
-	{
-		return $this->id. "!  ".$this->titre. "! Fait le".$this->date->format('Y-m-d');
-	}
+
 }
