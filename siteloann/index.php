@@ -16,6 +16,7 @@
 		<script src="public/js/skel.min.js"></script>
 		<script src="public/js/skel-layers.min.js"></script>
 		<script src="public/js/init.js"></script>
+		<link href="public/css/style.css" rel="stylesheet">
 		<noscript>
 			<link rel="stylesheet" href="public/css/skel.css" />
 			<link rel="stylesheet" href="public/css/style.css" />
