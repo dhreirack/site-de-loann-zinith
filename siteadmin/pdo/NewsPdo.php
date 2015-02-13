@@ -21,7 +21,7 @@ class NewsPdo extends MyPdo
 			$uneNews->id=$donnees["id"];
 			$uneNews->titre=$donnees["titre"];
 			$uneNews->description=$donnees["description"];
-		  	$uneNews->date=$donnees["description"];
+		  	$uneNews->dte=$donnees["dte"];
 		  	$resultat[]=$uneNews;
 		}
 		$reponse->closeCursor(); 

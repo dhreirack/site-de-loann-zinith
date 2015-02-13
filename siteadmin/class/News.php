@@ -4,11 +4,11 @@ class News
 	public $id;
 	public $titre;
 	public $description;
-	public $date;
+	public $dte;
 	
 	public function __construct(){
 		
-		$this->date=new DateTime ('NOW');
+		$this->dte=new DateTime ('NOW');
 		
 	}
 

@@ -3,6 +3,7 @@ require_once "pdo/MyPdo.php";
 require_once "pdo/NewsPdo.php";
 require_once "class/News.php";
 
+
 $connection = new NewsPdo();
 
 //Si la variable $_GET["action"] existe
@@ -24,6 +25,9 @@ if(isset($_GET["action"]))
                 case 'index':
                         $lesNews=$connection->getAll();
                         include("page/news/index.php");
+                        break;
+                case 'delete':
+
                         break;				
                 default:
                         include("page/news/index.php");
